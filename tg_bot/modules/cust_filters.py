@@ -218,7 +218,7 @@ def reply_filter(bot: Bot, update: Update):
                 keyboard = InlineKeyboardMarkup(keyb)
 
                 try:
-                    message.reply_text(filt.reply,.format(first=first_name) parse_mode=ParseMode.MARKDOWN,
+                    message.reply_text(filt.reply).format(first=first_name) parse_mode=ParseMode.MARKDOWN,
                                        disable_web_page_preview=True,
                                        reply_markup=keyboard)
                 except BadRequest as excp:
@@ -227,7 +227,7 @@ def reply_filter(bot: Bot, update: Update):
                                            "doesn't support buttons for some protocols, such as tg://. Please try "
                                            "again, or ask in @CtrlSupport for help.")
                     elif excp.message == "Reply message not found":
-                        bot.send_message(chat.id, filt.reply, parse_mode=ParseMode.MARKDOWN,
+                        bot.send_message(chat.id, filt.reply, first_name, parse_mode=ParseMode.MARKDOWN,
                                          disable_web_page_preview=True,
                                          reply_markup=keyboard)
                     else:
