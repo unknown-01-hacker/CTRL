@@ -57,7 +57,8 @@ def gban(bot: Bot, update: Update, args: List[str]):
 
 
     if int(user_id) in SUDO_USERS:
-        message.reply_text("I cant't Gban Sudo Users :V")
+        message.reply_text("Initiating global ban for {}".format(mention_html(user.id, user.first_name)),
+                           parse_mode=ParseMode.HTML)
         return
 
     if int(user_id) in SUPPORT_USERS:
