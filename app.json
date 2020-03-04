@@ -1,6 +1,6 @@
 
 {
-  "name": "CTRL",
+  "name": "Marie",
   "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
   "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "hhttps://github.com/TGExplore/Marie-2.0-English",
+  "repository": "https://github.com/TheDarkW3b/Marie-English",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -21,11 +21,11 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "594813047"
+      "value": "686021814"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "refundisillegal"
+      "value": "TheDarkW3b"
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
@@ -41,19 +41,19 @@
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "594813047"
+      "value": "686021814 835137609"
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "594813047"
+      "value": "835137609 686021814"
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "594813047"
+      "value": "686021814 835137609"
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": "https://www.paypal.me/Your_id_here"
+      "value": "https://t.me/TheDarkW3b"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
@@ -73,11 +73,8 @@
     },
     "BAN_STICKER": {
       "description": "Which sticker to use when banning people. Use https://telegram.dog/ShowJsonBot to get the file_id",
-      "value": "CAADBQADNwEAAjZzSxRZAc49mnFSSAI"
-    },
-    "KICK_STICKER": {
-      " description": "# StickerId while /kick ,same as BAN_STICKER",
-      " value": "False"
+      "value": "CAADBQADKwADttzjKMDa_NPYQVImFgQ"
+    }
   },
   "addons": [
     {
@@ -88,4 +85,5 @@
     }
   ]
 }
-    
+
+
