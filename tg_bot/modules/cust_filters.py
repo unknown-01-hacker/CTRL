@@ -218,7 +218,7 @@ def reply_filter(bot: Bot, update: Update):
                 keyboard = InlineKeyboardMarkup(keyb)
 
                 try:
-                    message.reply_text(filt.reply, .format(first_name), parse_mode=ParseMode.MARKDOWN,
+                    message.reply_text(.format(filt.reply, first_name, parse_mode=ParseMode.MARKDOWN,
                                        disable_web_page_preview=True,
                                        reply_markup=keyboard)
                 except BadRequest as excp:
