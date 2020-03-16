@@ -196,7 +196,7 @@ def reply_filter(bot: Bot, update: Update):
         return
 
     chat_filters = sql.get_chat_triggers(chat.id)
-    for keyword in chat_filters
+    for keyword in chat_filters:
         pattern = r"( |^|[^\w])" + re.escape(keyword) + r"( |$|[^\w])"
         if re.search(pattern, to_match, flags=re.IGNORECASE):
             filt = sql.get_filter(chat.id, keyword)
@@ -218,7 +218,7 @@ def reply_filter(bot: Bot, update: Update):
                 keyboard = InlineKeyboardMarkup(keyb)
 
                 try:
-                    message.reply_text(.format(filt.reply, first_name, parse_mode=ParseMode.MARKDOWN,
+                    message.reply_text(filt.reply, parse_mode=ParseMode.MARKDOWN,
                                        disable_web_page_preview=True,
                                        reply_markup=keyboard)
                 except BadRequest as excp:
