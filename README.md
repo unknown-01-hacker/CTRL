@@ -8,7 +8,7 @@ Can be found on telegram as [CTRL](https://t.me/ctrlrobot).
 
 You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/noobanon/CTRL)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template= https://github.com/unknown-01-hacker/CTRL)
 
 
 Alternatively, [find me on telegram](https://t.me/the_userbot.)
