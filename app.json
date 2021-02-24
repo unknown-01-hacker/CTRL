@@ -65,8 +65,8 @@
          "value": ""
       },
       "URL": {
-         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/ . Remove '➕' and add name,"
-         "required": false,
+         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/"
+         "required" false,
          "value": ""
       },
       "WHITELIST_USERS": {
