@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "https://github.com/TheDarkW3b/Marie-English",
+  "repository": "https://github.com/unknown-01-hacker/CTRL",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -21,19 +21,19 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "686021814"
+      "value": "1530396450"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "TheDarkW3b"
+      "value": "raj"
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
       "value": "ANYTHING"
     },
     "URL": {
-      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
-      "value": ""
+      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/ . remove "➕" and add name.",
+      "value": "https://➕.herokuapp.com/"
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
@@ -41,19 +41,19 @@
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "686021814 835137609"
+      "value": "1530396450 1350564182"
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "835137609 686021814"
+      "value": "1530396450 1350564182"
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "686021814 835137609"
+      "value": "1530396450 1350564182"
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": "https://t.me/TheDarkW3b"
+      "value": "https://t.me/Raja_Kannada_Admin"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
