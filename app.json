@@ -30,7 +30,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations.",
          "required": false,
-         "value": "https://www.paypal.me/"
+         "value": "https://www.paypal.me/PaulSonOfLars"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables.",
@@ -42,11 +42,11 @@
       },
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "1530396450"
+         "value": "594813047"
       },
       "OWNER_USERNAME": {
          "description": "Your username",
-         "value": "Raj"
+         "value": "refundisillegal"
       },
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -54,24 +54,24 @@
       },
       "SUDO_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
-         "value": "1530396450 1350564182"
+         "value": "594813047"
       },
       "SUPPORT_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
-         "value": "1530396450 1350564182"
+         "value": "254318997 18673980 83489514 594813047"
       },
       "TOKEN": {
          "description": "Your bot token.",
          "value": ""
       },
       "URL": {
-         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/"
-         "required" false,
+         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
+         "required": false,
          "value": ""
       },
       "WHITELIST_USERS": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
-         "value": "1530396450 1350564182"
+         "value": "254318997 18673980 83489514 594813047"
       }
    },
    "keywords": [
@@ -82,5 +82,5 @@
       "ctrl"
    ],
    "name": "CTRL",
-   "repository": "https://github.com/unknown-01-hacker/CTRL"
+   "repository": "https://github.com/AVATARX0TIC/CTRL"
 }
