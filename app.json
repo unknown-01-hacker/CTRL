@@ -42,11 +42,11 @@
       },
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "594813047"
+         "value": "1530396450"
       },
       "OWNER_USERNAME": {
          "description": "Your username",
-         "value": "refundisillegal"
+         "value": "Raja_Kannada_Admin"
       },
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -54,11 +54,11 @@
       },
       "SUDO_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
-         "value": "594813047"
+         "value": "1530396450"
       },
       "SUPPORT_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
-         "value": "254318997 18673980 83489514 594813047"
+         "value": "1530396450 1350564182"
       },
       "TOKEN": {
          "description": "Your bot token.",
@@ -71,7 +71,7 @@
       },
       "WHITELIST_USERS": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
-         "value": "254318997 18673980 83489514 594813047"
+         "value": "1530396450 1350564182"
       }
    },
    "keywords": [
