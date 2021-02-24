@@ -6,8 +6,7 @@
     "telegram",
     "best",
     "group",
-    "manager",
-    "3"
+    "manager"
   ],
   "repository": "https://github.com/unknown-01-hacker/CTRL",
   "env": {
@@ -80,7 +79,7 @@
     {
       "plan": "heroku-postgresql",
       "options": {
-        "version": "9.5"
+        "version": "10"
       }
     }
   ]
