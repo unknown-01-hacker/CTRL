@@ -22,12 +22,13 @@ from tg_bot.modules.translations.strings import tld
 PM_START_TEXT = """
 Hi {}, my name is {}! If you have any questions on how to use me, read /help - for all available commands.
 
-I'm a group manager bot built in python3, using the python-telegram-bot library, and am fully opensource; \
-you can find what makes me tick [here](github.com/PaulSonOfLars/tgbot)!
+
+**Feel free to add me in your group** 🤪
+Click help to see what I can do!! [picture](https://telegra.ph/file/948928fbfabd3607e3b73.jpg)!
 
 With some extra Modules .
 
-Maintained by [this amazing guy](t.me/nitin_xD).
+• [🄿🅁🅄🅃🄷🅅🄸 🅁🄰🄹](t.me/Raja_Kannada_Admin).
 
 """
 
@@ -37,12 +38,12 @@ I'm a modular group management bot with a few fun extras! Have a look at the fol
 the things I can help you with.
 
 *Main* commands available:
- - /start: start the bot
- - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
- - /settings:
-   - in PM: will send you your settings for all supported modules.
-   - in a group: will redirect you to pm, with all that chat's settings.
+ 1️⃣ - /start: start the bot
+ 2️⃣ - /help: PM's you this message.
+ 3️⃣ - /help <module name>: PM's you info about that module.
+ 4️⃣ - /settings:
+     - in PM: will send you your settings for all supported modules.
+     - in a group: will redirect you to pm, with all that chat's settings.
 
 {}
 And the following:
@@ -140,9 +141,9 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             first_name = update.effective_user.first_name
             buttons = InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="➕ Add me to your group➕", url="t.me/Pruthvi_RJ_Robot?startgroup=botstart"), InlineKeyboardButton(text="🤝 Help", callback_data="help_back")],
-                [InlineKeyboardButton(text="my owner 🇮🇳", url="https://t.me/Raja_Kannada_Admin")],
-                [InlineKeyboardButton(text="Group 🤍", url="https://t.me/Pruthvi_RJ_Group")]])
+                [[InlineKeyboardButton(text="**➕ Add me to your group ➕**", url="t.me/Pruthvi_RJ_Robot?startgroup=botstart"), InlineKeyboardButton(text="🤝 Help", callback_data="help_back")],
+                [InlineKeyboardButton(text="**my owner 🇮🇳**", url="https://t.me/Raja_Kannada_Admin")],
+                [InlineKeyboardButton(text="**Group 🤍**", url="https://t.me/Pruthvi_RJ_Group")]])
             update.effective_message.reply_text(
                 tld(update.effective_message, PM_START_TEXT).format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 disable_web_page_preview=True,
